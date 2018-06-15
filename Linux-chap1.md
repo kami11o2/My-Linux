@@ -13,7 +13,7 @@ $ which diff
 /usr/bin/diff  
 ```
 
-*/usr/bin/diff là kết quả trả về.*
+* */usr/bin/diff là kết quả trả về.*
 
 * Nếu which không tìm được chương trình thì whereis là lựa chọn tốt vì phạm vi tìm kiếm của nó rộng hơn các mục hệ thống.  
 
