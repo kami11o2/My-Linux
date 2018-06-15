@@ -33,7 +33,7 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
   
 ## 3. Khám phá hệ thống tệp tin
 
-* Lệnh cây là một cách hay để có được cái nhìn toàn cảnh về cây hệ thống tập tin. Các lệnh sau đây có thể giúp khám phá hệ thống tập tin:
+* Lệnh ```tree``` là một cách hay để có được cái nhìn toàn cảnh về cây hệ thống tập tin. Các lệnh sau đây có thể giúp khám phá hệ thống tập tin:
 
 |Lệnh|Chức năng|  
 |-------|-----------|  
