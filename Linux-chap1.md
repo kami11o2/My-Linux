@@ -45,7 +45,7 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
 > Giả sử file1.txt đã tồn tại. Một liên kết cứng được gọi là file2.txt được tạo bằng lệnh:  
 ``` **# ln file1.txt file2.txt** ```
 
-* Hại tệp này bây giờ gần như tồn tại. Nhưng việc kiểm tra danh sách tệp cho thấy điều này không hoàn toàn chính xác  
+* Hại tệp này bây giờ gần như tồn tại. Nhưng việc kiểm tra danh sách tệp cho thấy điều này không hoàn toàn chính xác.  
 
 ```
 # ls -l file*  
