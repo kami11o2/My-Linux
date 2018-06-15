@@ -1,6 +1,7 @@
 ## 1. Tìm ứng dụng
 * Các chương trình hày phần mềm tùy thuộc vào cách sắp xếp có thể được cài đặt trong các thư mục khác nhau. Các chương trình được thực thi thì nên ở trong các thư mục sau:
-```/bin  
+```
+/bin  
 /usr/bin  
 /sbin  
 /usr/sbin  
@@ -46,7 +47,8 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
 
 * Hại tệp này bây giờ gần như tồn tại. Nhưng việc kiểm tra danh sách tệp cho thấy điều này không hoàn toàn chính xác  
 
-```# ls -l file*  
+```
+# ls -l file*  
 -rw-r--r--. 2 root root 604 Feb 16 11:49 file1.txt  
 -rw-r--r--. 2 root root 604 Feb 16 11:49 file2.txt  
 # ls -li file*  
