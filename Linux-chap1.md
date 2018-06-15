@@ -7,7 +7,8 @@
 /opt. 
 ```
 * Có một cách để định vị chương trình là sử dụng lệnh ***which***. Ví dụ để tìm thư mục diff:
-```$ which diff  
+```
+$ which diff  
 /usr/bin/diff  
 ```
 
