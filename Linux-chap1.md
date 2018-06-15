@@ -38,7 +38,7 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
   
 * Lệnh `ln` có thể được sử dụng để tạo liên kết cứng hoặc liên kết mềm, gọi là liên kết tượng trưng (Symbolic links) hay symlinks.  
 
-> Giả sử file1.txt đã tồn tại, một liên kết cứng, gọi là file2.txt được tạo bằng lệnh:  
+> Giả sử file1.txt đã tồn tại. Một liên kết cứng được gọi là file2.txt được tạo bằng lệnh:  
 ``` **# ln file1.txt file2.txt** ```
 
 * Hại tệp này bây giờ gần như tồn tại. Nhưng việc kiểm tra danh sách tệp cho thấy điều này không hoàn toàn chính xác  
@@ -51,7 +51,15 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
 134415251 -rw-r--r--. 2 root root 604 Feb 16 11:49 file2.txt 
 ```
 
-* -i trong dòng đầu tiên dùng để in ra i-nút, có số lượng khác nhau duy nhất với mỗi tệp, và trường này giống nhau với cả 2 tệp.
+* tùy chọn -i trong dòng đầu tiên dùng để in ra số i-nút là số duy nhất cho mỗi tệp, và trường này giống nhau cho cả 2 tệp. Điều thực sự xảy ra ở đây là nó chỉ là một tập tin nhưng có nhiều hơn một tập tin với nó như được chỉ ra bởi 2 xuất hiện trong đầu ra.
+```
+# ln file1.txt file3.txt
+# ls -li file*
+134415251 -rw-r--r--. 3 root root 604 Feb 16 11:49 file1.txt
+134415251 -rw-r--r--. 3 root root 604 Feb 16 11:49 file2.txt
+134415251 -rw-r--r--. 3 root root 604 Feb 16 11:49 file3.txt
+```
+* Thay đổi file3.txt có nghĩa là thay đổi cùng một đối tượng như tên file1.txt, file2.txt và file3.txt.
 
 * Liên kết mềm có thể trỏ đến các đối tượng ngay cả trên các tập tin khác nhau (hoặc các phân vùng) có thể có hoặc không tồn tại. Trong trường hợp liên kết không trỏ đến một đối tượng đang tồn tại, bạn sẽ có được một liên kết treo lơ lửng.
 
