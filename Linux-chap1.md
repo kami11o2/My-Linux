@@ -22,6 +22,8 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
   
 ## 2. Truy cập thư mục  
 
+* Các lệnh hữu ích cho việc điều hướng thư mục:
+
 |Lệnh|Chức năng|  
 |-------------|-------------|  
 |cd|Trở về thư mục chính|  
@@ -30,7 +32,9 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz.
 |cd /|Từ thư mục hiện tại vào thư mục gốc (/)|  
   
 ## 3. Khám phá hệ thống tệp tin
-  
+
+* Lệnh cây là một cách hay để có được cái nhìn toàn cảnh về cây hệ thống tập tin. Các lệnh sau đây có thể giúp khám phá hệ thống tập tin:
+
 |Lệnh|Chức năng|  
 |-------|-----------|  
 |ls 	  |Liệt kê nội dung thư mục|  
