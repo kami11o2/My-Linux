@@ -48,3 +48,4 @@ $
 ## Tệp tiện ích
 
 * Bản chất thật của `file` được xác định bởi tiện ích `file`. Nó kiểm tra nội dung và các đặc điểm nhất định để xác định xem các tệp là văn bản thuần túy, thư viện được chia sẻ, chương trình thực thi, tập lệnh hay là một thứ gì khác.
+>Bài viết gốc: **[Working with files](https://github.com/lacoski/linux-notes/blob/master/content/working_with_files.md)**
