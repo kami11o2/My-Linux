@@ -4,3 +4,4 @@
 2. [Làm việc với files](https://github.com/kami11o2/My-Linux/blob/master/Linux-chap2.md).
 3. [Filesystem](https://github.com/kami11o2/My-Linux/blob/master/Linux-chap3.md).
 4. [Quyền file](https://github.com/kami11o2/My-Linux/blob/master/Linux-chap4.md).
+5. [Quản lý gói](https://github.com/kami11o2/My-Linux/blob/master/Linux-chap5.md).
