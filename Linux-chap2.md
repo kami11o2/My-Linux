@@ -4,4 +4,4 @@
 1. Tiêu chuẩn đầu vào **(stdin)**.
 2. Tiêu chuẩn đầu ra **(stdout)**.
 3. Tiêu chuẩn lỗi **(stderr)**.
-  
+3. standard error or **stderr**
