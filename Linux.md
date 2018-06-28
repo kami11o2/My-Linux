@@ -43,13 +43,15 @@ xuất chuẩn (standard output), và lỗi chuẩn (standard error).
 - Thiết bị xuất chuẩn: cung cấp cách thức gửi dữ liệu xuất ra.
 - Thiết bị lỗi chuẩn : ghi lại báo cáo lỗi trong quá trình thi hành.
 ```
->< biểu thị đầu vào  
-> biểu thị đầu ra
 ### Chuyển hướng đầu vào
-- (trống)
+- Thay vì nhập vào từ bàn phím thì ta nhập từ một file được chỉ định.
+```
+< biểu thị đầu vào 
+```
 ### Chuyển hướng đầu ra
 - Thay vì xuất dữ liệu ra màn hình thì sẽ xuất dữ liệu vào một file khác được chỉ định. Nếu file được chỉ định chưa có sẽ được tạo mới, nếu có rồi sẽ được ghi đè.
 ```
+>  sử dụng để ghi đè vào file được chỉ định.
 >> sử đụng để ghi tiếp vào file được chỉ định thay vì ghi đè.
 ```
 ### Chuyển hướng lỗi
