@@ -28,7 +28,7 @@ arguments: nơi lệnh cần truy cập tới
 ```
 - Để thực hiện nhiều lệnh giữa các cú pháp lệnh ta dùng một dấu **";"**.
 - Dùng **Ctrl + C** để ngừng lệnh hiện tại lại.
-- Sử dụng **"\"** để viết tiếp lệnh đang thực hiện ở dòng hiện tại xuống dòng kế tiếp.
+- Sử dụng `\` để viết tiếp lệnh đang thực hiện ở dòng hiện tại xuống dòng kế tiếp.
 ### Pipeline
 - Dùng để kết nối các tiến trình bằng cách lấy đầu ra của lệnh này làm đầu vào của lệnh khác.
 - Cú pháp thi hành pipeline:
