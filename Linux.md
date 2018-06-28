@@ -49,8 +49,9 @@ xuất chuẩn (standard output), và lỗi chuẩn (standard error).
 - (trống)
 ### Chuyển hướng đầu ra
 - Thay vì xuất dữ liệu ra màn hình thì sẽ xuất dữ liệu vào một file khác được chỉ định. Nếu file được chỉ định chưa có sẽ được tạo mới, nếu có rồi sẽ được ghi đè.
->
+```
 >> sử đụng để ghi tiếp vào file được chỉ định thay vì ghi đè.
+```
 ### Chuyển hướng lỗi
 - Sẽ bắt tất cả các lỗi rồi ghi vào một file thay vì ghi ra màn hình.
 - Sử dụng **"2>"** để chuyển hướng lỗi.
