@@ -4,7 +4,7 @@
 ### 1. Terminal ảo
 - Vì Linux có tính đa nhiệm nên có cung cấp thêm các terminal ảo để ta có thể sử dụng nhiều **terminal** cùng lúc.
 ### 2. Smart terminal
-- Giúp người dùng có thể làm việc với giao diện đồ họa chứ không đơn thuần là làm việc trên màn hình đen nữa.
+- Giúp người dùng có thể làm việc với giao diện đồ họa ([GUI](https://github.com/kami11o2/T-m-hi-u/blob/master/GUI.md)) chứ không đơn thuần là làm việc trên màn hình đen nữa.
 ```
 Ctrl + Alt + Fn: Chuyển về terminal
 Ctrl + F7      : Chuyển về môi trường đồ họa
