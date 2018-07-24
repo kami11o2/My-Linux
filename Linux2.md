@@ -13,5 +13,5 @@ link)**.
 - Dùng cấu trúc dữ liệu được gọi là nút định dạng (inode) để tham chiếu và định vị tập tin cũng như các dữ liệu tương ứng.
 ### Hệ thống tập tin Ext3
 - Thêm chức năng quan trọng **Journaling File System**.
-- Giúp thao tác an toàn hơn, như khi hệ điều hành bị tắt bất chợt, trong File System xuất hiện lỗi,... thì hệ điều hành sẽ phát hiện được lần tắt bị lỗi unclean shutdown trước đó và tự 
+- Giúp thao tác an toàn hơn, như khi hệ điều hành bị tắt bất chợt, trong File System xuất hiện lỗi,... thì hệ điều hành sẽ phát hiện được lần tắt bị lỗi unclean shutdown trước đó và tự sửa.
 - 
