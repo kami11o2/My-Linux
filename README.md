@@ -12,3 +12,4 @@
 * [Nhân hệ điều hành](https://github.com/kami11o2/My-Linux/blob/master/Linux3.md).
 * [Thư mục - MEAN Stack](https://github.com/kami11o2/My-Linux/blob/master/Linux4.md).
 * [Trình soạn thảo Vi](https://github.com/kami11o2/My-Linux/blob/master/Linux5.md).
+* [Quản trị tài khoản](https://github.com/kami11o2/My-Linux/blob/master/Linux6.md).
