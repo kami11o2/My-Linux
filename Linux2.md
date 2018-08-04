@@ -20,3 +20,13 @@ link)**.
 - Giảm bớt hiện tượng phân mảnh dữ liệu trong ổ cứng, hỗ trợ các file và phân vùng có dung lượng lớn..., Thích hợp với ổ SSD.
 ### Hệ thống tập tin XFS
 - Quản lý được file có kích thước là 9 Exabyte. Cho phép các ứng dụng duy trì được tốc độ truy xuất dữ liệu trên đĩa.
+## I-node
+- I-node là một bảng có kích thước cố định được sử dụng để lưu trữ tất cả các thông tin về một tập tin, và mỗi tập tin chỉ có một i-node duy nhất.  
+## Hệ thống tập tin ảo
+### Nguyên lý
+- Nhân Linux có một lớp hệ thống tập tin ảo (Virtual File System – VFS).  
+- VFS là một lớp gián tiếp, quản lý các lời gọi hệ thống hướng tập tin và gọi những chức năng cần thiết trong mã hệ thống tập tin vật lý để thực hiện nhập/xuất.  
+> Khi một tiến trình phát sinh một lời gọi hệ thống hướng tập tin, nhân hệ điều hành gọi một chức năng được chứa trong VFS. Chức năng này quản lý các thao tác độc lập cấu trúc và chuyển hướng lời gọi tới một chức năng chứa trong mã hệ thống tập tin vật lý, nó có khả năng quản lý các thao tác phụ thuộc cấu trúc. Mã hệ thống tập tin sử dụng các chức năng trữ bộ đệm để yêu cầu nhập/xuất trên các thiết bị.  
+
+### Cấu trúc
+- VFS định nghĩa một bộ các chức năng mà  mọi hệ thống tập tin phải thực thi. Giao diện  này được tạo bởi một tập hợp các thao tác  liên kết với ba kiểu của đối tượng: hệ thống  tập tin, i-node, và các tập tin mở.  
