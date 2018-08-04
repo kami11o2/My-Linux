@@ -8,3 +8,4 @@
 
 # Phần tìm hiểu qua sách.
 * [Terminal - Shell - Standard](https://github.com/kami11o2/My-Linux/blob/master/Linux1.md).
+* [Filesystem - Virtual Filesystem - I-node](https://github.com/kami11o2/My-Linux/blob/master/Linux2.md).
