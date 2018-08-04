@@ -9,8 +9,8 @@
 # Phần tìm hiểu qua sách.
 * [Terminal - Shell - Standard](https://github.com/kami11o2/My-Linux/blob/master/Linux1.md).
 * [Filesystem - Virtual Filesystem - I-node](https://github.com/kami11o2/My-Linux/blob/master/Linux2.md).
-* [Nhân hệ điều hành](https://github.com/kami11o2/My-Linux/blob/master/Linux3.md).
 * [Thư mục - MEAN Stack](https://github.com/kami11o2/My-Linux/blob/master/Linux4.md).
+* [Nhân hệ điều hành](https://github.com/kami11o2/My-Linux/blob/master/Linux3.md).
 * [Trình soạn thảo Vi](https://github.com/kami11o2/My-Linux/blob/master/Linux5.md).
 * [Quản trị tài khoản](https://github.com/kami11o2/My-Linux/blob/master/Linux6.md).
 * [Quản trị hệ thống](https://github.com/kami11o2/My-Linux/blob/master/Linux7.md).
